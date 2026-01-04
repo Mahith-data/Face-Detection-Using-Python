@@ -1,11 +1,13 @@
 import cv2
 import numpy as np
 
+
 face_cascade = cv2.CascadeClassifier(
     cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
 )
 
 # PART 1: Face Detection from Image
+
 
 image = cv2.imread("face_image.jpg")
 
@@ -30,7 +32,9 @@ else:
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
+
 # PART 2: Real-Time Face Detection
+
 
 video_capture = cv2.VideoCapture(0)
 
