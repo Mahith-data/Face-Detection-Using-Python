@@ -1,5 +1,5 @@
 Face Detection Using Python
-Project Description
+
 
 This project implements a face detection system using Python and OpenCV. The application detects human faces from both static images and live webcam video using Haar Cascade classifiers. Detected faces are highlighted with bounding boxes, and the total number of faces detected is displayed.
 
